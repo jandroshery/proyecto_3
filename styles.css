@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+
+.jumbotron {
+    background-color: #fff;
+    margin-top: 56px;
+}
+
+#productContainer .card {
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+#productContainer .card:hover {
+    transform: scale(1.05);
+}
+
+#productContainer .card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+#cartItems .cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#cartItems .cart-item span {
+    font-weight: bold;
+}
